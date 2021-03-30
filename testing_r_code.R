@@ -3,4 +3,6 @@ b <- a/2
 b
 
 num <- rnorm(100, 0, 1)
-hist(num, main = "Histogram of 100 normally distributed values")
+
+hist(num, xlab = "number", main = "Histogram of 100 normally distributed values")
+
